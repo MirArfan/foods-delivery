@@ -39,3 +39,31 @@
     background-color: rgb(219, 205, 205);
     color: rgb(40, 36, 36);
 }
+
+@media (max-width:1050px){
+    .header{
+        height: 38vw;
+    }
+    .header-contents{
+        max-width: 45%;
+    }
+    .header-contents button{
+        margin-bottom: 2vw;
+        
+    }
+}
+@media (max-width:750px){
+    
+    .header-contents{
+        max-width: 55%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        /* padding: 1.5vw 3vw;
+        margin-bottom: 20px; */
+        padding: 2vw 3vw;
+        margin: 2.3vw 0; 
+    }
+}
